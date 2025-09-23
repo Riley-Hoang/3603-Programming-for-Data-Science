@@ -3,19 +3,22 @@
 ## 🧠 Section 1: Google Colab
 
 1. What is the primary difference between Colab and Jupyter Notebook on your local machine?  
-   `Answer:` ______________________________________
+   `Answer: Colab runs in the cloud with free GPU/TPU access, while Jupyter runs locally on your own machine.`
 
 2. How do you save a notebook to your own Google Drive?  
-   `Answer:` ______________________________________
+   `Answer: File → Save a copy in Drive.`
 
 3. In Colab, how do you add a new Markdown cell?
-
+   `Answer: Click + Text or use the shortcut Ctrl+M.`
 ---
 
 ### ✏️ Task: Code Practice
 
+
 ```python
-# Write a Python statement that prints your full name and your favorite number.
+# Write a Python statement that prints your full name and your favorite number
+   print("Nguyen Ngoc Hoang, Favorite Number: 7")
+.
 ```
 
 ---
