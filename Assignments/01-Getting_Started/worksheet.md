@@ -16,24 +16,21 @@
 
 
 ```python
-# Write a Python statement that prints your full name and your favorite number
+# Write a Python statement that prints your full name and your favorite number.
    print("Nguyen Ngoc Hoang, Favorite Number: 7")
-.
 ```
 
 ---
 
 ## 🔗 Section 2: GitHub + Colab Workflow
 
-4. What are the steps to upload a notebook to GitHub?  
-   `Answer:` ______________________________________
-
-5. What does "commit" mean in the context of GitHub?  
-   `Answer:` ______________________________________
-
-6. How do you open a GitHub notebook in Colab?  
-   `Answer:` ______________________________________
-
+4. What are the steps to upload a notebook to GitHub?
+   `Answer: Create a repo (or open an existing one) -> Click Add file -> Upload files -> Select your .ipynb notebook -> Commit changes`
+     
+6. What does "commit" mean in the context of GitHub?  
+   `Answer: A saved snapshot of changes in your repository with a message describing what changed.` 
+7. How do you open a GitHub notebook in Colab?  
+   `Answer: Replace github.com in the URL with githubtocolab.com, or use File → Open notebook → GitHub tab in` 
 ---
 
 ### ✏️ Task: URL Check
@@ -46,7 +43,7 @@ Paste the link to your GitHub notebook here:
 ## 📊 Section 3: Python Basics
 
 7. What are the four primary Python data types you've used so far?  
-   `Answer:` _______________________________
+   `Answer: int, float, str, list`
 
 8. What’s the output of this code?
 
@@ -56,7 +53,7 @@ y = 2.5
 print(type(x + y))
 ```
 
-   `Answer:` ___________________
+   `Answer: <class 'float'>`
 
 ---
 
@@ -64,6 +61,10 @@ print(type(x + y))
 
 ```python
 # Write code to ask the user for a number and double it.
+
+num = float(input("Enter a number: "))
+print("Double is:", num * 2)
+
 ```
 
 ---
