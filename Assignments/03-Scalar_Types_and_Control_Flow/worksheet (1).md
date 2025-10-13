@@ -52,7 +52,7 @@ True <class 'bool'>
 
 3. What does the `!=` operator mean?
 
-`Answer:` _______________________
+`Answer: '!=' not equal to`
 
 4. What will the following code print?
 
@@ -62,7 +62,7 @@ b = 3
 print(a < b or b < 10)
 ```
 
-`Answer:` _______________________
+`Answer: True`
 
 ---
 
@@ -72,11 +72,16 @@ print(a < b or b < 10)
 
 ```python
 # Your code:
+grade = int(input("Enter your grade: "))
+if grade >= 70:
+    print("Pass")
+else:
+    print("Fail")
 ```
 
 6. What does `elif` allow you to do?
 
-`Answer:` _______________________
+`Answer: lets you add multiple conditional branches`
 
 ---
 
