@@ -3,7 +3,7 @@
 ---
 
 ### 1. What does `range(3, 8)` generate?
-
+Answer: 3, 4, 5, 6, 7
 ---
 
 ### 2. Which keyword skips the rest of the loop and moves to the next iteration?
