@@ -13,12 +13,12 @@ x = 10
 print(type(x))
 ```
 
-`Answer:` _______________________
+`Answer: <class 'int'>` 
 
 2. What scalar type would best represent:
-   - A person's name: _______
-   - Their age: _______
-   - Whether they passed a test: _______
+   - A person's name: str
+   - Their age: int 
+   - Whether they passed a test: bool
 
 ---
 
@@ -28,7 +28,22 @@ print(type(x))
 # Create a variable for each type and print its value and type
 # Example: an int, float, str, and bool
 ```
+# Create a variable for each type and print its value and type
 
+age = 18
+height = 1.78
+name = "Hoang"
+is_student = True
+
+print(age, type(age))
+print(height, type(height))
+print(name, type(name))
+print(is_student, type(is_student))
+
+18 <class 'int'>
+1.78 <class 'float'>
+Hoang <class 'str'>
+True <class 'bool'>
 ---
 
 ## 🔁 Section 2: Comparison Operators
