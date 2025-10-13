@@ -71,8 +71,7 @@ while count >= 1:
 `Answer: with automatically closes the file after the inner block of code completes, helping to avoid errors and resource leaks.`
 
 6. How do you loop over each line in a file?
-
-`Answer: for line in file` 
+`Answer: for line in file: `
 ---
 
 ### ✏️ Task: File Filter
@@ -81,4 +80,8 @@ Write code that prints only the lines in a file that contain the word `"error"`.
 
 ```python
 # Your code here
+with open('log.txt', 'r') as file:
+    for line in file:
+        if 'error' in line.lower():
+            print(line.strip())
 ```
