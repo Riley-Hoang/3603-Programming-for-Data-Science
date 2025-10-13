@@ -81,8 +81,7 @@ else:
 
 6. What does `elif` allow you to do?
 
-`Answer: lets you add multiple conditional branches`
-
+`Answer: lets you add multiple conditional branches
 grade = int(input("Enter your grade: "))
 if grade >= 90:
   print("A")
@@ -94,6 +93,8 @@ elif grade >= 60:
   print("D")
 else:
   print("F")
+`
+
 
 ---
 
