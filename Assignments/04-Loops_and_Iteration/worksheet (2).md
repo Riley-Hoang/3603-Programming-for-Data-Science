@@ -8,7 +8,7 @@ Practice and reflect on how loops work in Python.
 
 1. What does `range(5)` produce?
 
-`Answer:` _______________________
+`Answer: 0, 1, 2, 3, 4` 
 
 2. Write a `for` loop that prints numbers 1 to 10, but skips 5.
 
@@ -22,11 +22,12 @@ Practice and reflect on how loops work in Python.
 
 3. What’s the difference between a `for` loop and a `while` loop?
 
-`Answer:` ___________________________________________
+`Answer: A "for" loop is a loop predetermined number of times (or through each element in a sequence), while a "while" loop is a continuous loop as long as the condition is true.
+`
 
 4. What happens if a `while` loop's condition never becomes `False`?
 
-`Answer:` ___________________________________________
+`Answer: It creates an infinite loop, and a program will never pause.` 
 
 ---
 
@@ -35,7 +36,11 @@ Practice and reflect on how loops work in Python.
 ```python
 # Use a while loop to count down from 5 to 1.
 ```
-
+# Use a while loop to count down from 5 to 1.
+count = 5
+while count >= 1:
+    print(count)
+    count -= 1
 ---
 
 ## 📁 Section 3: File Reading and `with`
