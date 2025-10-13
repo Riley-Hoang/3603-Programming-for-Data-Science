@@ -27,7 +27,7 @@ print(type(x))
 ```python
 # Create a variable for each type and print its value and type
 # Example: an int, float, str, and bool
-```
+
 # Create a variable for each type and print its value and type
 
 age = 18
@@ -44,6 +44,8 @@ print(is_student, type(is_student))
 1.78 <class 'float'>
 Hoang <class 'str'>
 True <class 'bool'>
+
+```
 ---
 
 ## 🔁 Section 2: Comparison Operators
