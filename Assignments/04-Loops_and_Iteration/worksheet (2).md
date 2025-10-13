@@ -14,6 +14,20 @@ Practice and reflect on how loops work in Python.
 
 ```python
 # Your code:
+for i in range (1, 11):
+  if i == 5:
+    continue
+  print(i)
+
+1
+2
+3
+4
+6
+7
+8
+9
+10
 ```
 
 ---
@@ -35,24 +49,30 @@ Practice and reflect on how loops work in Python.
 
 ```python
 # Use a while loop to count down from 5 to 1.
-```
-# Use a while loop to count down from 5 to 1.
+
 count = 5
 while count >= 1:
     print(count)
-    count -= 1
+   count -= 1
+
+5
+4
+3
+2
+1
+```
+
 ---
 
 ## 📁 Section 3: File Reading and `with`
 
 5. What does the `with` statement do when opening a file?
 
-`Answer:` ___________________________________________
+`Answer: with automatically closes the file after the inner block of code completes, helping to avoid errors and resource leaks.`
 
 6. How do you loop over each line in a file?
 
-`Answer:` ___________________________________________
-
+`Answer: for line in file` 
 ---
 
 ### ✏️ Task: File Filter
