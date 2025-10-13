@@ -24,15 +24,18 @@ Answer: True
 
 ### 3. What does `not` do in a boolean expression?
 
+Inverting logical values
+
 ---
 
 ### 4. Fill in the blank to check for inequality:
 
 ```python
-if score ___ 100:
+if score == 100:
     print("Perfect score!")
 ```
 
 ---
 
 ### 5. What keyword starts a conditional chain after an `if` block?
+else if, else
