@@ -6,6 +6,7 @@
 
 ```python
 type(True)
+<class 'bool'>
 ```
 
 ---
@@ -17,7 +18,7 @@ x = 7
 print(x >= 7 and x < 10)
 ```
 
-Answer: __________
+Answer: True
 
 ---
 
